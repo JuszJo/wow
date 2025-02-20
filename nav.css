@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    padding: 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050041;
+    color: white;
+
+}
+#web-img{
+    width: 11rem;
+    
+}
+#link-items{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button{
+    background-color: #E55934;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section {
+    background-color: #050041;
+    padding-bottom: 150px;
+}
+
+.hero-text-div {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text-div p {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.hero-image-section {
+    position: relative;
+    margin-top: 50px;
+}
+
+.hero-image-abs img {
+    /* AFFECTING ALL IMAGES */
+    position: absolute;
+
+    /* CENTER ALL IMAGES */
+
+    /* THIS IS RELATIVE TO THE PARENT */
+    left: 50%;
+    /* right: 50%; */
+
+    /* THIS IS FOR THE IMAGE ITSELF */
+    transform: translate(-50%, 0);
+
+    /* transform: translateX(-50%);
+    transform: translateY(0); */
+}
+
+#hero-image-1 {
+    width: 500px;
+}
+
+#hero-image-2 {
+    width: 280px;
+    transform: translate(-130%, 40%);
+}
+
+#hero-image-3 {
+    width: 300px;
+    transform: translate(50%, 25%);
+}
+
+#hero-image-4 {
+    width: 350px;
+    transform: translate(10%, 120%);
+}
+
